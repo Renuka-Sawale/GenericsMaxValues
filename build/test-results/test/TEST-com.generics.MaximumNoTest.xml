@@ -1,8 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="com.generics.MaximumNoTest" tests="1" skipped="0" failures="0" errors="0" timestamp="2021-05-14T02:55:33" hostname="ADMIN-PC" time="0.027">
-  <properties/>
-  <testcase name="givenIntegerValueMaxAtFirstPosition()" classname="com.generics.MaximumNoTest" time="0.027"/>
-  <system-out><![CDATA[maximim no:15
-]]></system-out>
-  <system-err><![CDATA[]]></system-err>
-</testsuite>
