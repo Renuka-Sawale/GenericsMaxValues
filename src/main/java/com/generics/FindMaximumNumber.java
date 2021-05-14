@@ -2,11 +2,7 @@ package com.generics;
 
 public class FindMaximumNumber {
 
-    public static void main (String[] args) {
-        System.out.println("Welcome to Generics");
-    }
-
-   /* public static Integer DisplayIntegerMaximumNo (Integer x, Integer y, Integer z) {
+    public static Integer DisplayIntegerMaximumNo (Integer x, Integer y, Integer z) {
 
         Integer max = x;
 
@@ -34,8 +30,7 @@ public class FindMaximumNumber {
             max = z;
         }
 
-
-        System.out.println(max);
+        System.out.println("Maximim no:" + max);
         return max;
     }
 
@@ -51,7 +46,7 @@ public class FindMaximumNumber {
             max = z;
         }
 
-        System.out.println(max);
+        System.out.println("Maximim no:" + max);
         return max;
-    }*/
+    }
 }
