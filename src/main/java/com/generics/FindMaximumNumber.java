@@ -1,7 +1,7 @@
 package com.generics;
 
-public class FindMaximumNumber <E extends Comparable<E>> {
-    E x,y,z;
+public class FindMaximumNumber <T extends Comparable<T>> {
+    T x,y,z;
 
     public FindMaximumNumber() {
         this.x = x;
@@ -9,8 +9,8 @@ public class FindMaximumNumber <E extends Comparable<E>> {
         this.z = z;
     }
 
-    public static <E extends Comparable> E DisplayMaximumNo(E x, E y, E z) {
-        E max = x; // max = 15(x)
+    public static <T extends Comparable> T DisplayMaximumNo(T x, T y, T z) {
+        T max = x;
         if (y.compareTo(max) > 0) {
             max = y;
         }
@@ -19,5 +19,9 @@ public class FindMaximumNumber <E extends Comparable<E>> {
         }
         System.out.println("Maximum value is:" +max);
         return max;
+    }
+
+    public static <T> void printMax(T x, T y, T z, T max) {
+        System.out.println("The Max element is:" +max);
     }
 }
